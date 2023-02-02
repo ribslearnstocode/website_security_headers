@@ -38,6 +38,7 @@ async def main():
         echo,
         host="",
         port=8080,
+        process_request=health_check,
     ):
         await stop
 
